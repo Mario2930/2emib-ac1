@@ -2,7 +2,7 @@
 Projeto de sistema full stack
 ## Alunos
 - Mário S. S. L. P.
-- Matheus Cesar Algusto 
+- Matheus Cesar Augusto 
 - Guilherme Takashi Takamoto
 ## Tema do projeto
 Descreva o tema do projeto
