@@ -5,5 +5,7 @@ Projeto de sistema full stack
 - `Mário S. S. L. P.`
 - Matheus Cesar Augusto 
 - Guilherme Takashi Takamoto
+- Lucca Gonçalves
+- Gustavo Bazan
 ## Tema do projeto
 Descreva o tema do projeto
