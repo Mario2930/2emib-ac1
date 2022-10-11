@@ -1,3 +1,225 @@
-body {
-    background-color: #f0f8ff;
+/*
+    Folha de estilo do site Merch Store
+    @author Mário S. S. L. Portella
+*/
+
+/*Importação(Fonts)*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Css reset*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+/*Layout*/
+.cont{
+    margin: 0 auto;
+}
+
+.Botao {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: #c00000;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 25px
+}
+
+/*Flex*/
+.Flex{
+    display: flex;
+    justify-content: space-between;
+}
+.Flex2{
+    display: flex;
+    justify-content: space-around;
+}
+/*Smartphone Portrait*/
+
+/*Topo*/
+header {
+    height: 60px;
+    background-color: #000000;
+}
+
+#logo img {
+    height: 80%;
+    width: 80%;
+}
+#uc img {
+    padding: 20px 3px 20px 3px;
+    height: 45%;
+    width: 45%;
+}
+#check {
+    display: none;
+}
+
+#hamburguer {
+    font-size: 3em;
+    padding-right: 15px;
+    color: #D50F27;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #343638;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.5s;
+    margin-top: 0px;
+}
+#check:checked ~ ul {
+    left: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+
+main {
+    height: 75vh;
+    background: url(img/Banner.png);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5em;
+}
+main h2 {
+    font-size: 1em;
+    margin: 20px 0px 50px 0px;
+}
+/*Smartphone Landscape*/
+@media (min-width: 576px){
+    /*Layout*/
+    .cont{
+        max-width: 540px;
+    }
+
+    main h1, main h2 {
+        text-shadow: #000 0.05em 0.05em 0.05em;
+    }
+}
+
+/*Tablet Portrait*/
+@media (min-width: 768px){
+    /*Layout*/
+    .cont{
+        max-width: 720px;
+    }
+    
+    main {
+        height: 45vh;
+    }
+
+    main h1 {
+        font-size: 5.5em;
+    }
+
+
+    main h2 {
+        font-size: 2em;
+    }
+
+
+}
+
+
+/*Tablet Landscape*/
+@media (min-width: 992px){
+    /*Layout*/
+    .cont{
+        max-width: 960px;
+    }
+
+    main {
+        height: 70vh;
+
+    }
+}
+
+/*Pc/Notebook*/
+@media (min-width: 1200px){
+    /*Layout*/
+    .cont{
+        max-width: 1140px;
+    }
+
+    header{
+        height: 80px;
+    }
+
+    #logo img{
+        height: 100%;
+        width: 100%;   
+    }
+    
+    
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        height: auto;
+        background-color: transparent;  
+    }
+    
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+    }
+
+    nav ul li a:hover {
+        color: #c00000;
+    }
+}
+@media screen and (max-width:1199px){
+    #mester {
+
+        display: flex;
+        flex-direction: row;
+    }
+    #logo {
+        order: 2;
+    }
+    #ham {
+        order: 1;
+    }
+    #uc {
+        order: 3;
+    }
+}
+
+body {
+    background-color: #f4f4f4;
+}
+ 
