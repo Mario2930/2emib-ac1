@@ -7,6 +7,7 @@
         alt="CSS válido!" />
     </a>
 </p>
+
 # Merch Story
 Projeto de sistema full stack. Loja e-commerce de produtos de artistas variados.
 ## Alunos
