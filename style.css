@@ -32,7 +32,15 @@ body{
     border: 2px solid #fff;
     border-radius: 25px
 }
-
+.Butao {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: #c00000;
+    padding: 10px 20px;
+    border-radius: 25px
+}
 /*Flex*/
 .Flex{
     display: flex;
@@ -42,6 +50,30 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+.Flex3 {
+    display: flex;
+    align-items: center;
+}
+
+.Flex4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartao {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    height: 178px;
+    background-color: #F7F8FA;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
 /*Smartphone Portrait*/
 
 /*Topo*/
@@ -112,6 +144,149 @@ main h1 {
 main h2 {
     font-size: 1em;
     margin: 20px 0px 50px 0px;
+}
+
+#produtos {
+    padding: 50px 0px;
+    background-color: #000;
+}
+
+.h33 {
+    padding: 2px;
+    text-align: left;
+    font-size: 1em;
+    color: #1D293F;
+}
+
+.h21 {
+    color: #0B254B;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+.h32 {
+    color: #5E6E89;
+    text-align: center;
+    font-size: 1em;
+}
+
+.p1 {
+    padding: 0px 15px 0px 0px;
+    color: #D50F27;
+    text-align: right;
+    font-size: 1em;
+}
+.centri {
+padding: 0px auto 0px auto;
+}
+
+.sub {
+    background-color: #fff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#sobre {
+    padding: 50px 0px;
+    background-color: #585858;
+}
+
+.imagie {
+    max-width: 100%;
+}
+.auto{
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}
+.h22 {
+    color: #1D252C;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 5px 20px 5px 0px;
+}
+.h34 {
+    color: #D50F27;
+    text-align: left;
+    font-size: 1em;
+    padding: 5px 20px 40px 0px;
+}
+.h35 {
+    color: #000000;
+    text-align: left;
+    font-size: 1em;
+    padding: 2px 5px 2px 0px;
+}
+.h36 {
+    color: #000000;
+    text-align: left;
+    font-size: 1em;
+    padding: 2px 5px 20px 0px;
+}
+.h23 {
+    color: #D50F27;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+.h37 {
+    color: #D50F27;
+    text-align: center;
+    font-size: 1em;
+}
+#Aproveite {
+    padding: 50px 0px;
+    background-color: #787878;
+}
+.h38 {
+    color: #5E6E89;
+    text-align: center;
+    font-size: 1em;
+}
+#Pop {
+    padding: 50px 0px;
+    background-color: #554D5C;
+}
+.yy{
+    display: none;
+}
+address {
+    padding: 50px 0px;
+    background: #272727;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+address a {
+    color: #000;
+    text-decoration: none;
+}
+address img {
+    padding-top: 15px;
+}
+.gg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.kk {
+    display: flex;
+    flex-direction: column;
+}
+.jj {
+    display: flex;
+    flex-direction: row;
+}
+.verm {
+    color: #D50F27;
+    font-size: 1em;
+    font-weight: 700;
+}
+.branc{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
 }
 /*Smartphone Landscape*/
 @media (min-width: 576px){
@@ -201,6 +376,20 @@ main h2 {
     nav ul li a:hover {
         color: #c00000;
     }
+    .odm {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .lina {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .yy{
+        display: inline;
+    }
+
 }
 @media screen and (max-width:1199px){
     #mester {
@@ -217,6 +406,20 @@ main h2 {
     #uc {
         order: 3;
     }
+    .odm {
+        display: flex;
+        flex-direction: row;
+    }
+    .od1{
+        order: 1;
+    }
+    .od2{
+        order: 2;
+    }
+    .od3{
+        order: 3;
+    }
+
 }
 
 body {
