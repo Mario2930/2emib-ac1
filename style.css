@@ -91,6 +91,11 @@ header {
     height: 45%;
     width: 45%;
 }
+#uc a img {
+    padding: 0px 3px 20px 3px;
+    height: 100%;
+    width: 100%;
+}
 #check {
     display: none;
 }
@@ -288,6 +293,24 @@ address img {
     color: #fff;
     font-size: 1em;
 }
+footer{
+    padding: 50px;
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    text-align: center;
+}
+.aviso{
+    font-size: 3em;
+    padding-right: 15px;
+    color: #ff0000;
+}
+.nodecora {
+    text-decoration: none;
+}
+.dd {
+    display: flex;
+    flex-direction: column;
+}
 /*Smartphone Landscape*/
 @media (min-width: 576px){
     /*Layout*/
@@ -388,6 +411,10 @@ address img {
     }
     .yy{
         display: inline;
+    }
+    .dd {
+        display: flex;
+        flex-direction: row;
     }
 
 }
