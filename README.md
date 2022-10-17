@@ -17,4 +17,4 @@ Projeto de sistema full stack. Loja e-commerce de produtos de artistas variados 
 - Lucca Gonçalves
 - Gustavo Bazan
 ## Tema do projeto
-E-commerce de produtos oficiais de artistas.
+E-commerce de produtos oficiais de artistas e com tela de erro.
