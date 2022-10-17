@@ -9,7 +9,7 @@
 </p>
 
 # Merch Story
-Projeto de sistema full stack. Loja e-commerce de produtos de artistas variados.
+Projeto de sistema full stack. Loja e-commerce de produtos de artistas variados e com tela de erro.
 ## Alunos
 - `Mário S. S. L. P.`
 - Matheus Cesar Augusto 
